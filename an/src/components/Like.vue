@@ -65,7 +65,7 @@ export default {
             left: 0;
             width: 100%;
             height: 50px;
-            background: $background;
+            background:#F8F6F7;
         }
         .love-message {
             .love-img {
@@ -104,7 +104,7 @@ export default {
                     right: 0;
                     height: 120px;
                     width: 220px;
-                    background: $background;
+                    background:#F8F6F7;
                     &.active {
                         transform: translate3d(0, 300px, 0);
                         opacity: 1;
@@ -133,7 +133,7 @@ export default {
             height: 50px;
             width: 50px;
             border-radius: 50px;
-            background: $background;
+            background:#F8F6F7;
             margin: 30px auto;
             text-align: center;
             box-shadow: 0 1px 5px rgba(0,0,0,.2), 0 2px 2px rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.12);
@@ -154,16 +154,16 @@ export default {
         position: relative;
         box-sizing: border-box;
         padding-bottom: 50px;
-        border-left: 2px solid $background;
-        border-right: 2px solid $background;
-        border-top: 2px solid $background;
+        border-left: 2px solid #03a67b;
+        border-right: 2px solid #03a67b;
+        border-top: 2px solid #03a67b;
         .bottom-color {
             position: absolute;
             bottom: 0;
             left: 0;
             width: 100%;
             height: 50px;
-            background: $background;
+            background:#F8F6F7;
         }
         .love-message {
             width: 100%;
@@ -185,9 +185,9 @@ export default {
                     border: 1px solid #000;
                     cursor: pointer;
                     &:hover {
-                        background: $background;
+                        background:#F8F6F7;
                         color: #fff;
-                        border: 1px solid $background;
+                        border: 1px solid #03a67b;
                         font-weight: bold;
                     }
                 }
@@ -214,7 +214,7 @@ export default {
                     right: 0;
                     height: 120px;
                     width: 220px;
-                    background: $background;
+                    background:#F8F6F7;
                     &.active {
                         transform: translate3d(0, 300px, 0);
                         opacity: 1;
@@ -251,7 +251,7 @@ export default {
             height: 50px;
             width: 50px;
             border-radius: 50px;
-            background: $background;
+            background:#F8F6F7;
             margin: 30px auto;
             text-align: center;
             transition: 0.4s;

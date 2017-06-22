@@ -56,7 +56,7 @@ export default {
     overflow: scroll;
     header{
       height:200px;
-      background: $background;
+      background:#F8F6F7;
       position: relative;
       box-shadow: 0 2px 5px 0 rgba(0,0,0,0.2);
       .name{
