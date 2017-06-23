@@ -158,7 +158,7 @@ export default {
       height:200%;
       width:100%;
       overflow: hidden;
-      background:#F8F6F7;
+      background: #03a67b;
       position: relative;
       .apple{
         height: 170px;
@@ -171,7 +171,7 @@ export default {
         border: 2px solid #fff;
         border-top: 0;
         border-radius: 0 0 32px 32px;
-        background:#F8F6F7;
+        background: #03a67b;
         .screen{
           width:90%;
           height:65%;
@@ -238,15 +238,15 @@ export default {
             line-height: 40px;
             text-align: center;
             border-radius: 5px;
-            background:#F8F6F7;
+            border: 1px solid #03a67b;
             background: #fff;
             letter-spacing: 2px;
-            background:#F8F6F7;
+            color: #03a67b;
             transition: .6s;
             font-size: 15px;
             text-decoration: none;
             &:hover{
-              background:#F8F6F7;
+              background: #03a67b;
               color:#fff;
             }
           }
@@ -281,7 +281,7 @@ export default {
         .android{
           width:130px;
           height:50px;
-          background:#F8F6F7;
+          background: #03a67b;
           border-radius: 5px;
           display: inline-block;
           margin-right: 20px;
@@ -303,7 +303,7 @@ export default {
           width:130px;
           display: inline-block;
           height:50px;
-          background:#F8F6F7;
+          background: #03a67b;
           border-radius: 5px;
           padding: 2px 2px 2px 5px;
           position: relative;
@@ -329,14 +329,14 @@ export default {
         left: 0;
         bottom: 0;
         right: 0;
-        background:#F8F6F7;
+        border: 2px solid #03a67b;
         border-bottom: 0;
         border-radius: 32px 32px 0 0;
         .close-button{
           height:43px;
           width:8px;
           border-radius: 2px;
-          background:#F8F6F7;
+          background: #03a67b;
         }
         .close1{
           position: absolute;
@@ -370,7 +370,7 @@ export default {
           .camera{
             height:8px;
             width:8px;
-            background:#F8F6F7;
+            background: #03a67b;
             border-radius: 8px;
             position: absolute;
             left:80px;
@@ -379,7 +379,7 @@ export default {
           .receiver{
             height:8px;
             width:50px;
-            background:#F8F6F7;
+            background: #03a67b;
             border-radius: 8px;
             position: absolute;
             left:100px;
@@ -388,7 +388,7 @@ export default {
           .screen{
             width:90%;
             height:80%;
-            background:#F8F6F7;
+            border-left: 2px solid #03a67b;
             border-right: 2px solid #03a67b;
             border-top: 2px solid #03a67b;
             margin: 0 auto;
@@ -413,11 +413,11 @@ export default {
         text-align: center;
       }
       .third-one{
-        background-background:#F8F6F7;
+        background-color: #03a67b;
         background-size: 100% 100%;
       }
       .third-four{
-        background-background:#F8F6F7;
+        background-color: #03a67b;
         background-size: 100% 100%;
       }
       .third-three{
@@ -433,7 +433,7 @@ export default {
           height:200px;
           margin: 15% auto;
           .name{
-            background:#F8F6F7;
+            color: #03a67b;
             letter-spacing: 2px;
           }
           .title{
@@ -449,7 +449,7 @@ export default {
             letter-spacing: 1px;
           }
           .button-fond{
-            background:#F8F6F7;
+            color: #03a67b;
             letter-spacing: 2px;
             border-bottom: 2px solid #03a67b;
             width:52px;
@@ -476,8 +476,8 @@ export default {
         display: block;
         margin:  0 auto;
         border-radius: 5px;
-        background:#F8F6F7;
-        background:#F8F6F7;
+        border: 1px solid #03a67b;
+        background: #03a67b;
         padding: 10px 70px;
         letter-spacing: 2px;
         color: #fff;
@@ -498,7 +498,7 @@ export default {
         width:100%;
         height:50%;
         float: left;
-        background:#F8F6F7;
+        background: #03a67b;
       }
       .four-box-right{
         width:100%;
@@ -524,7 +524,7 @@ export default {
             letter-spacing: 1px;
           }
           .button-fond{
-            background:#F8F6F7;
+            color: #03a67b;
             letter-spacing: 2px;
             margin: 0 auto;
             width:74px;
@@ -544,7 +544,7 @@ export default {
     .frist-paper{
       height:100%;
       width:100%;
-      background:#F8F6F7;
+      background: #03a67b;
       position: relative;
       .apple{
         height: 170px;
@@ -557,7 +557,7 @@ export default {
         border: 2px solid #fff;
         border-top: 0;
         border-radius: 0 0 32px 32px;
-        background:#F8F6F7;
+        background: #03a67b;
         .screen{
           width:90%;
           height:65%;
@@ -624,14 +624,14 @@ export default {
             line-height: 40px;
             text-align: center;
             border-radius: 5px;
-            background:#F8F6F7;
+            border: 1px solid #03a67b;
             background: #fff;
             letter-spacing: 2px;
-            background:#F8F6F7;
+            color: #03a67b;
             transition: .6s;
             font-size: 15px;
             &:hover{
-              background:#F8F6F7;
+              background: #03a67b;
               color:#fff;
             }
           }
@@ -664,7 +664,7 @@ export default {
         .android{
           width:200px;
           height:60px;
-          background:#F8F6F7;
+          background: #03a67b;
           border-radius: 5px;
           display: inline-block;
           margin-right: 20px;
@@ -672,6 +672,7 @@ export default {
           padding: 2px 2px 2px 30px;
           i{
             font-size: 40px;
+            color:#fff;
           }
           p{
             font-size: 20px;
@@ -686,12 +687,13 @@ export default {
           width:200px;
           display: inline-block;
           height:60px;
-          background:#F8F6F7;
+          background: #03a67b;
           border-radius: 5px;
           padding: 2px 2px 2px 30px;
           position: relative;
           i{
             font-size: 40px;
+            color:#fff;
           }
           p{
             font-size: 20px;
@@ -712,14 +714,14 @@ export default {
         left: 0;
         bottom: 0;
         right: 0;
-        background:#F8F6F7;
+        border: 2px solid #03a67b;
         border-bottom: 0;
         border-radius: 32px 32px 0 0;
         .close-button{
           height:43px;
           width:8px;
           border-radius: 2px;
-          background:#F8F6F7;
+          background: #03a67b;
         }
         .close1{
           position: absolute;
@@ -753,7 +755,7 @@ export default {
           .camera{
             height:8px;
             width:8px;
-            background:#F8F6F7;
+            background: #03a67b;
             border-radius: 8px;
             position: absolute;
             left:80px;
@@ -762,7 +764,7 @@ export default {
           .receiver{
             height:8px;
             width:50px;
-            background:#F8F6F7;
+            background: #03a67b;
             border-radius: 8px;
             position: absolute;
             left:100px;
@@ -771,10 +773,10 @@ export default {
           .screen{
             width:90%;
             height:80%;
-            background:#F8F6F7;
+            border-left: 2px solid #03a67b;
             border-right: 2px solid #03a67b;
             border-top: 2px solid #03a67b;
-            // background:#F8F6F7;
+            // background: #03a67b;
             margin: 0 auto;
             position: absolute;
             left:0;
@@ -796,7 +798,7 @@ export default {
       }
       .third-one,
       .third-four{
-        background:#F8F6F7;
+        background: #03a67b;
       }
       .third-two,
       .third-three{
@@ -807,7 +809,7 @@ export default {
           height:200px;
           margin: 15% auto;
           .name{
-            background:#F8F6F7;
+            color: #03a67b;
             letter-spacing: 2px;
           }
           .title{
@@ -824,7 +826,7 @@ export default {
             width:400px;
           }
           .button-fond{
-            background:#F8F6F7;
+            color: #03a67b;
             letter-spacing: 2px;
             border-bottom: 2px solid #03a67b;
             width:50px;
@@ -850,15 +852,15 @@ export default {
         display: block;
         margin:  0 auto;
         border-radius: 5px;
-        background:#F8F6F7;
-        background:#F8F6F7;
+        border: 1px solid #03a67b;
+        background: #03a67b;
         padding: 10px 70px;
         letter-spacing: 2px;
         color: #fff;
         transition: .6s;
         font-size: 15px;
         &:hover{
-          background:#F8F6F7;
+          background: #03a67b;
           color:#fff;
         }
       }
@@ -871,7 +873,7 @@ export default {
         width:50%;
         height:100%;
         float: left;
-        background:#F8F6F7;
+        background: #03a67b;
       }
       .four-box-right{
         width:50%;
@@ -896,7 +898,7 @@ export default {
             width:400px;
           }
           .button-fond{
-            background:#F8F6F7;
+            color: #03a67b;
             letter-spacing: 2px;
             width:74px;
           }

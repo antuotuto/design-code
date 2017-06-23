@@ -1,7 +1,7 @@
 export const talks = [
   {
     img:'',
-    title:'这次是一次主要的活动',
+    title:'世界的样子',
     date:'2017/07/03',
     where: '北京',
     content: '# 王安安\n\n ``` \n\n 王安安 \n\n ``` \n\n ### 王安安',

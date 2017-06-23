@@ -6,7 +6,7 @@
 
         </div>
         <div class="speak-title">
-          <p @click="login_name">{{talk.title}}</p>
+          <p>{{talk.title}}</p>
         </div>
         <div class="speak-date">
           <p>{{talk.date}}</p>
@@ -18,7 +18,6 @@
     </header>
 
     <footer>
-      <div class="" v-html="an"></div>
       <p class="speak">感谢关注</p>
     </footer>
   </div>
@@ -26,8 +25,6 @@
 
 <script>
 import {talks} from '@/data'
-var marked = require('marked');
-import '@/assets/css/github-markdown.css'
 
 
 
@@ -37,18 +34,16 @@ export default {
     return {
       talks:talks,
       talk:{},
-      an:'1111'
+      an:' '
     }
   },
   methods:{
     login_name: function(e) {
       this.$store.commit('setWeight', this.an);
-      alert('修改信息成功,请到前台确认');
     },
 
   },
   created() {
-    this.an = marked(this.talks[0].content)
     this.talk = talks[this.$route.params.id];
   }
 }
