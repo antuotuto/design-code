@@ -530,6 +530,7 @@ $background : #03a67b;
 .designCode{
   height:100%;
   width:100%;
+  overflow: scroll;
   header{
     height:550px;
     background: $background;
@@ -795,11 +796,12 @@ $background : #03a67b;
       }
       thead{
         font-size: 16px;
-        color:#929393;
+        color:#fff;
+        background: $background;
       }
       tbody{
         td:nth-child(1){
-          color:#929393;
+          color:#000;
           font-size: 16px;
         }
       }
@@ -842,11 +844,12 @@ $background : #03a67b;
       font-weight: 100;
       font-size: 40px;
       letter-spacing: 2px;
+      margin: 0;
     }
     .end-text{
       position: absolute;
-      bottom: 15px;
-      right:30px;
+      bottom: 50px;
+      right:200px;
       line-height: 20px;
       font-size: 15px;
       font-weight: 300;

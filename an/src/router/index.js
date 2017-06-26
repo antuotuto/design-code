@@ -10,6 +10,7 @@ import talking from '@/pages/talking'
 import home from '@/pages/home'
 import colorful from '@/components/colorful'
 import designCode from '@/components/designCode'
+import codeIndex from '@/codeStandards/codeIndex'
 
 Vue.use(Router)
 
@@ -60,6 +61,11 @@ export default new Router({
       path: '/designCode',
       name: 'designCode',
       component: designCode
+    },
+    {
+      path: '/codeIndex',
+      name: 'codeIndex',
+      component: codeIndex
     }
 
   ]

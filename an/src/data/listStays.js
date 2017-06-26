@@ -23,6 +23,11 @@ export const listStays = [
     title:'设计规范',
     icon:'glyphicon-piggy-bank',
     router: '/designCode'
+  },
+  {
+    title:'代码规范',
+    icon:'glyphicon-piggy-bank',
+    router: '/codeIndex'
   }
 
 ];
