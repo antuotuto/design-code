@@ -128,6 +128,13 @@
         <!-- <p class="main-title2">——王安安</p> -->
       </div>
     </main>
+
+    <div class="end">
+      <p>不为设计而设计 而为美而付出一切</p>
+    </div>
+
+
+
   </div>
 </template>
 
@@ -159,7 +166,7 @@ export default {
     height:50%;
     width:100%;
     position: relative;
-    background: #D8CFC6;
+    background: rgba(215, 206, 197,.4);
     .logo-text{
       text-align: center;
       padding-top: 180px;
@@ -781,8 +788,8 @@ export default {
       left: 56%;
       margin-left: -11px;
       border: 3px solid transparent;
-      border-bottom: 3px solid #000;
-      border-right: 3px solid #000;
+      border-bottom: 3px solid #03857A;
+      border-right: 3px solid #03857A;
       z-index: 99;
       opacity: .8;
       -webkit-transform: rotate(45deg);
@@ -797,8 +804,8 @@ export default {
       left: 50%;
       margin-left: -11px;
       border: 3px solid transparent;
-      border-bottom: 3px solid #000;
-      border-right: 3px solid #000;
+      border-bottom: 3px solid #03857A;
+      border-right: 3px solid #03857A;
       z-index: 99;
       opacity: .8;
       -webkit-transform: rotate(45deg);
@@ -818,6 +825,20 @@ export default {
           opacity: 0;
           -webkit-transform: translate(0, 10px) rotate(45deg);
       }
+  }
+  .end{
+    height:300px;
+    width:100%;
+    background: rgba(215, 206, 197, 0.4);
+    p{
+      text-align: center;
+      line-height: 300px;
+      color:#172540;
+      font-weight: 100;
+      font-size: 40px;
+      letter-spacing: 2px;
+      margin: 0;
+    }
   }
 }
 
